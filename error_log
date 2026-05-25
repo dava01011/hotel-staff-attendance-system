@@ -1,0 +1,8 @@
+[20-Feb-2026 13:56:03 Asia/Jakarta] PHP Warning:  require(/home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/../../app/helpers/mode.php): Failed to open stream: No such file or directory in /home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/autoload_real.php on line 41
+[20-Feb-2026 13:56:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/../../app/helpers/mode.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader():37}()
+#1 /home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/autoload.php(22): ComposerAutoloaderInitbfe12996eeecb6fdc8713a9fd9d431f8::getLoader()
+#2 /home/cfcy1736/public_html/absensi.cfcb.my.id/artisan(18): require('/home/cfcy1736/...')
+#3 {main}
+  thrown in /home/cfcy1736/public_html/absensi.cfcb.my.id/vendor/composer/autoload_real.php on line 41
